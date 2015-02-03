@@ -7,20 +7,25 @@ describe "Calculate" do
   end
 
   it "Subtracts two values" do
-   expect(cal1.operation("subtract 2")).to eq(3)
+   expect(cal1.operation("subtract 2")).to eq(-2)
   end
 
   it "Multiply two values" do
-   expect(cal1.operation("multiply 2")).to eq(6)
+   expect(cal1.operation("multiply 2")).to eq(0)
   end
 
   it "Divide two values" do
-   expect(cal1.operation("divide 3")).to eq(2)
+   expect(cal1.operation("divide 3")).to eq(0)
   end
 
   it "Cancels operation" do
    expect(cal1.operation("cancel")).to eq(0)
   end
+
+  it "Checks wrong input" do
+   expect(cal1.operation("cgh")).to eq(0)
+  end
+
 
 
 end
