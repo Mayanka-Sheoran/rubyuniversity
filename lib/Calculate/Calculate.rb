@@ -1,3 +1,4 @@
+# Performs the basic functions of a calculator appropriate for command line input
 class Calculate
 
   def initialize()
@@ -22,6 +23,14 @@ class Calculate
       @final_value /= value
     when "cancel"
       @final_value = 0
+    when "abs"
+      @final_value.abs
+    when "sqr"
+      @final_value ** 2
+    when "sqrt"
+      @final_value ** 0.5
+    when "neg"
+      @final_value * -1
     else
       puts "invalid input"
     end

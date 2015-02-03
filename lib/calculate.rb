@@ -1,3 +1,3 @@
 require "Calculate/calculate"
 require "Calculate/parser"
-require "Calculate/launch"
+require "Calculate/application"

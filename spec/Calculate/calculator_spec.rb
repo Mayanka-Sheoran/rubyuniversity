@@ -26,6 +26,20 @@ describe "Calculate" do
    expect(cal1.operation("cgh")).to eq(0)
   end
 
+  it "Calculates absolute of a number" do
+   expect(cal1.operation("abs")).to eq(0)
+  end
 
+  it "Square of the number" do
+   expect(cal1.operation("sqr")).to eq(0)
+  end
+
+  it "Square root of the number" do
+   expect(cal1.operation("sqrt")).to eq(0)
+  end
+
+  it "negative of the number" do
+   expect(cal1.operation("neg")).to eq(0)
+  end
 
 end

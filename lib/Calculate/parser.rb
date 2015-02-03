@@ -1,3 +1,4 @@
+# Converts the user input into appropriate format for calculator operations
 class Parser
 
 	def initialize(input)
