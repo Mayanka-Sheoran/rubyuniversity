@@ -24,13 +24,13 @@ class Calculate
     when "cancel"
       @final_value = 0
     when "abs"
-      @final_value.abs
+      @final_value = @final_value.abs
     when "sqr"
-      @final_value ** 2
+      @final_value = @final_value ** 2
     when "sqrt"
-      @final_value ** 0.5
+      @final_value = @final_value ** 0.5
     when "neg"
-      @final_value * -1
+      @final_value = @final_value * -1
     else
       puts "invalid input"
     end

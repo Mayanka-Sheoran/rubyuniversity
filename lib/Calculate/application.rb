@@ -10,7 +10,7 @@ class Application
 		input = Kernel.gets.chomp
 
 		while input != 'exit' do 
-			puts calci.operation(input)
+			puts @calci.operation(input)
 			print "$ "
 			input = Kernel.gets.chomp
 		end
