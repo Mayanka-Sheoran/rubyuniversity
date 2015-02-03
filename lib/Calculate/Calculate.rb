@@ -1,16 +1,13 @@
 class Calculate
 
-	def initialize()
-    @input=""
-    @final_value=0
+  def initialize()
+    @final_value = 0.0
   end
 
-  def split_input
-    @input = gets.chomp
-    str = @input.split(" ")  
-    value = str[1].to_i
+  def operation(input)
+    str = input.split(" ")  
+    value = str[1].to_f
     
-
     case str[0] 
     when "add"
       @final_value = @final_value + value
@@ -22,13 +19,11 @@ class Calculate
       @final_value = @final_value + value
     when "cancel"
       @final_value = 0
-    
     else
       puts "invalid input"
     end
-    puts @final_value
-  end
-end
+    return @final_value
 
-c=Calculate.new()
-c.split_input
+  end
+
+end

@@ -1,0 +1,41 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/mayankasheoran/Documents/Calculator/lib/Calculate.rb": [
+        1
+      ],
+      "/Users/mayankasheoran/Documents/Calculator/lib/Calculate/calculate.rb": [
+        1,
+        null,
+        1,
+        5,
+        null,
+        null,
+        1,
+        5,
+        5,
+        null,
+        5,
+        null,
+        4,
+        null,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        1,
+        null,
+        0,
+        null,
+        5,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1422945973
+  }
+}
