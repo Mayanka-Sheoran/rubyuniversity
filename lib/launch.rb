@@ -1,0 +1,1 @@
+calci = Calculator.new
